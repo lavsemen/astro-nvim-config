@@ -1,7 +1,6 @@
 ---@type LazySpec
 return {
-
-  -- == Examples of Adding Plugins ==
+  "eandrju/cellular-automaton.nvim",
 
   "andweeb/presence.nvim",
   {
@@ -76,7 +75,10 @@ return {
   },
   {
     "folke/todo-comments.nvim",
-    opts = {},
+    dependencies = { "nvim-lua/plenary.nvim" },
+    opts = {
+      pattern = [[\b(KEYWORDS)\b]],
+    },
   },
   {
     "David-Kunz/gen.nvim",
