@@ -99,4 +99,14 @@ return {
       "rcarriga/nvim-notify",
     },
   },
+
+  {
+    "nvim-neo-tree/neo-tree.nvim",
+
+    opts = {
+      window = {
+        position = "float",
+      },
+    },
+  },
 }

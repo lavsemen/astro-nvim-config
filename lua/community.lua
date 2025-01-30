@@ -6,9 +6,10 @@
 return {
   "AstroNvim/astrocommunity",
   { import = "astrocommunity.pack.lua" },
-  { import = "astrocommunity.colorscheme.tokyonight-nvim" },
-  { import = "astrocommunity.colorscheme.catppuccin" },
-  { import = "astrocommunity.colorscheme.cyberdream-nvim" },
-  { import = "astrocommunity.color.transparent-nvim" },
+  { import = "astrocommunity.colorscheme" },
   { import = "astrocommunity.pack.vue" },
+  { import = "astrocommunity.game.leetcode-nvim" },
+  { import = "astrocommunity.syntax.vim-sandwich" },
+  { import = "astrocommunity.split-and-window.colorful-winsep-nvim" },
+  { import = "astrocommunity.git.git-blame-nvim" },
 }

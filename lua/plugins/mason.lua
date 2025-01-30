@@ -11,17 +11,22 @@ return {
         "lua_ls",
         "volar",
         "eslint",
+        "ts_ls",
+        "html",
+        "cssls",
+        "css_varables",
+        "emmet_ls",
+        "stylelint_lsp",
       },
     },
   },
-  -- use mason-null-ls to configure Formatters/Linter installation for null-ls sources
   {
     "jay-babu/mason-null-ls.nvim",
     -- overrides `require("mason-null-ls").setup(...)`
     opts = {
       ensure_installed = {
         "stylua",
-        -- add more arguments for adding more null-ls sources
+        "js-debug-adapter",
       },
     },
   },
@@ -31,7 +36,8 @@ return {
     opts = {
       ensure_installed = {
         "python",
-        -- add more arguments for adding more debuggers
+        "prettierd",
+        "stylelint_lsp",
       },
     },
   },
