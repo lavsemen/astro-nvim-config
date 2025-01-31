@@ -14,7 +14,7 @@ return {
         "ts_ls",
         "html",
         "cssls",
-        "css_varables",
+        "css_variables",
         "emmet_ls",
         "stylelint_lsp",
       },

@@ -101,12 +101,16 @@ return {
   },
 
   {
-    "nvim-neo-tree/neo-tree.nvim",
+    "NeogitOrg/neogit",
+    dependencies = {
+      "nvim-lua/plenary.nvim", -- required
+      "sindrets/diffview.nvim", -- optional - Diff integration
 
-    opts = {
-      window = {
-        position = "float",
-      },
+      -- Only one of these is needed.
+      "nvim-telescope/telescope.nvim", -- optional
+      "ibhagwan/fzf-lua", -- optional
+      "echasnovski/mini.pick", -- optional
     },
+    config = true,
   },
 }
